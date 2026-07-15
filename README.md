@@ -62,34 +62,6 @@ Flavor Dash merupakan aplikasi mobile pemesanan makanan berbasis React Native (E
 
 ---
 
-# Struktur Project
-
-```text
-app
-├── (auth)
-│   ├── login.tsx
-│   └── register.tsx
-│
-├── (tabs)
-│   ├── home.tsx
-│   ├── cart.tsx
-│   ├── orders.tsx
-│   ├── maps.tsx
-│   └── food-detail.tsx
-│
-├── camera.tsx
-├── profile.tsx
-└── _layout.tsx
-
-src
-├── components
-├── context
-├── services
-└── data
-```
-
----
-
 # Instalasi
 
 ## Clone Repository
@@ -130,9 +102,7 @@ npx expo install expo-secure-store
 # API
 
 Aplikasi menggunakan Mock API untuk menyimpan data makanan dan minuman.
-
 Contoh data:
-
 ```json
 {
   "name": "Burger Deluxe",
@@ -146,9 +116,7 @@ Contoh data:
 ---
 
 # Authentication
-
 Aplikasi menggunakan simulasi JSON Web Token (JWT).
-
 Token disimpan menggunakan:
 
 ```text
@@ -219,23 +187,5 @@ Pada metode Stateless Authentication, informasi autentikasi disimpan di dalam to
 ## Alasan Menggunakan JWT pada Aplikasi Mobile
 
 JWT dipilih karena aplikasi mobile umumnya berkomunikasi dengan REST API. JWT bersifat stateless sehingga tidak memerlukan session server, lebih ringan, dan mudah diimplementasikan pada aplikasi React Native.
-
----
-
-# Hasil Implementasi
-
-Fitur yang berhasil diimplementasikan:
-
-- [x] Authentication
-- [x] JWT Simulation
-- [x] Middleware Protection
-- [x] Katalog Makanan
-- [x] Mock API
-- [x] Responsive Layout
-- [x] Cart
-- [x] Detail Pesanan
-- [x] Camera
-- [x] Maps
-- [x] Analisis
 
 ---
