@@ -1,10 +1,10 @@
-# 🍔 Flavor Dash
+# Flavor Dash
 
 Flavor Dash merupakan aplikasi mobile pemesanan makanan berbasis React Native (Expo) yang dikembangkan sebagai tugas UTS Pemrograman Mobile. Aplikasi ini menyediakan fitur katalog makanan, autentikasi pengguna, keranjang belanja, detail pesanan, kamera sebagai bukti penerimaan pesanan, dan integrasi maps untuk menampilkan lokasi restoran.
 
 ---
 
-# 📱 Fitur Utama
+# Fitur Utama
 
 ## 1. Authentication
 
@@ -48,7 +48,7 @@ Flavor Dash merupakan aplikasi mobile pemesanan makanan berbasis React Native (E
 
 ---
 
-# 🛠️ Teknologi yang Digunakan
+# Teknologi yang Digunakan
 
 - React Native
 - Expo
@@ -62,7 +62,7 @@ Flavor Dash merupakan aplikasi mobile pemesanan makanan berbasis React Native (E
 
 ---
 
-# 📂 Struktur Project
+# Struktur Project
 
 ```text
 app
@@ -90,7 +90,7 @@ src
 
 ---
 
-# ⚙️ Instalasi
+# Instalasi
 
 ## Clone Repository
 
@@ -116,7 +116,7 @@ npx expo start
 
 ---
 
-# 📦 Library Tambahan
+# Library Tambahan
 
 ```bash
 npx expo install expo-router
@@ -127,7 +127,7 @@ npx expo install expo-secure-store
 
 ---
 
-# 🌐 API
+# API
 
 Aplikasi menggunakan Mock API untuk menyimpan data makanan dan minuman.
 
@@ -145,7 +145,7 @@ Contoh data:
 
 ---
 
-# 🔐 Authentication
+# Authentication
 
 Aplikasi menggunakan simulasi JSON Web Token (JWT).
 
@@ -164,7 +164,7 @@ Halaman yang diproteksi:
 
 ---
 
-# 📊 Analisis
+# Analisis
 
 ## 1. Penggunaan Flexbox dan Ukuran Proporsional
 
@@ -222,7 +222,7 @@ JWT dipilih karena aplikasi mobile umumnya berkomunikasi dengan REST API. JWT be
 
 ---
 
-# ✅ Hasil Implementasi
+# Hasil Implementasi
 
 Fitur yang berhasil diimplementasikan:
 
@@ -239,9 +239,3 @@ Fitur yang berhasil diimplementasikan:
 - [x] Analisis
 
 ---
-
-# 👨‍💻 Author
-
-Nama : Agung Sudarto  
-Mata Kuliah : Pemrograman Mobile  
-Project : Flavor Dash
